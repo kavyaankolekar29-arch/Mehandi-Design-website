@@ -1,0 +1,97 @@
+<html>
+<head>
+    <title>Contact - Mehandi Magic</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, lavender, thistle);
+            color: black;
+        }
+        nav {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(to right, mediumvioletred, deeppink);
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size:60px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+          
+        }
+        main {
+            max-width: 600px;
+            margin: 80px auto;
+            padding: 30px;
+            background-color: lavenderblush;
+            border-radius: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: mediumvioletred;
+            margin-bottom: 20px;
+            font-size:50px;
+            text-decoration:underline;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            color: darkmagenta;
+            font-weight: bold;
+            font-size:30px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 30px;
+            margin-top: 5px;
+            border-radius: 10px;
+            border: 1px solid darkmagenta;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: mediumvioletred;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size:50px;
+        }
+        button:hover {
+            background-color: deeppink;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+</body>
+</html>
